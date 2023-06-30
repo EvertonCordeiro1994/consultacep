@@ -1,19 +1,10 @@
+import CEPSearch from '../app/components/buscador';
 
-
-export default function Home() {
-  return (
-    <>
+export default function HomePage (){
+     return (
       <div>
-        <h1>Busca CEP</h1>      
-        <div>
-          <input
-            type="number"
-            placeholder="Digte o CEP aqui"
-          />
-          <button>Buscar</button>
-        </div>
+        <h1>Buscador de CEP</h1>
+        <CEPSearch />
       </div>
-    </>
-
-  )
-}
+    );
+  }
